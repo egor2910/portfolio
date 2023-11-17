@@ -58,3 +58,7 @@ button {
   font-weight: 600;
   background: var(--text-main-blue);
 }
+.wrapper {
+  background-image: url("../images/light-back.webp");
+  background-size: cover;
+}

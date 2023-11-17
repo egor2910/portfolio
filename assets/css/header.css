@@ -1,0 +1,27 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.header-logo .header-nav {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 550px;
+  display: flex;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+.item {
+  font-size: 20px;
+}
+.header-theme {
+  width: 200px;
+
+  padding: 5px;
+}
