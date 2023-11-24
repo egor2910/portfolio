@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family:'PT Serif', serif;
+  
 }
 :root {
   --text-main-blue: #5671a6;
@@ -15,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Poppins;
+  font-family:'PT Serif', serif;
   font-style: normal;
   line-height: normal;
 }
@@ -59,6 +61,15 @@ button {
   background: var(--text-main-blue);
 }
 .wrapper {
-  background-image: url("../images/light-back.webp");
+  background-image: url("../images/light-back.jfif");
   background-size: cover;
 }
+.btn-demo:hover { color: var(--text-white);
+background-color: var(--text-main-blue);}
+.btn-demo {background: none;
+color: #5671a6;
+cursor: pointer;
+transition: .5s;}
+.btn-contanct:hover {}
+.btn-demo:active {}
+.btn-contact:active {}
