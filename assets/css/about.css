@@ -1,0 +1,32 @@
+.page-about {
+align-self: stretch;
+flex-grow: 1;
+padding-left: 50px;
+}
+.about-info {display: flex;
+background-color: brown;
+height: 150px;
+width: 544px;
+padding-top: 11px;
+padding-left: 50px;
+padding-right: 50px;
+flex-direction: row;
+ justify-content: space-between;
+  align-items: center;}
+
+  .years {
+ height: 150px;   
+ width: 150px;
+ padding: 10px ;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+  }
+  .years img {
+    width: 17px;
+  }
+  .year_card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
