@@ -76,7 +76,7 @@ body {
 .main {
   flex-grow: 1;
   justify-content: space-around;
-  
+ 
 }
 .btn-demo:hover {
   color: var(--text-white);
