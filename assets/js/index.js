@@ -13,16 +13,16 @@ let educatiom = document.getElementById("education")
 
 console.log(work, education)
 
-work.style.backgroundColor = "rgb(255,100,0)"
+// work.style.backgroundColor = "rgb(255,100,0)"
 console.log(work.style);
 work.onclick = function () {
     education.style.display = "flex"
 }
-education.onclick = () => {    
-    console.log(this);
+
+education.onclick = function () {    
+    work.style.display = "flex"
 }
-    
-    
+   
     a = document.querySelectorAll("header-menu-item")
 
 console.log(a);
