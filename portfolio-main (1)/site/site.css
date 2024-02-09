@@ -1,0 +1,87 @@
+:root {
+    --text-main-blue: #5671a6;
+    --text-dark: #383838;
+    --text-grey: #616161;
+    --text-white: #ffffff;
+    border-color: rgb(25, 221, 221);
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-bottom: 1px solid var(border);
+}
+
+.header-logo .header-nav {
+    justify-content: space-between;
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.item {
+    font-size: 20px;
+}
+
+.header-theme {
+    width: 200px;
+
+    padding: 5px;
+}
+
+.header-menu-item {
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: -5px;
+}
+
+.header-menu-item:hover {
+    border-bottom: 2px solid var(--text-main-blue);
+}
+.developments {
+    height: 250px;
+    width: 150px;
+    padding: 5px;
+    display: flex;
+    border: 1px;
+     border-radius: 20px;
+  border-color: rgb(255, 0, 0);
+  border-style: solid; 
+    justify-content: space-between;
+    flex-direction: column;
+ 
+}
+
+.pict {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 50px;
+    height: 20px;
+}
+.qualification-pages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    .main-site {
+        display:flex;
+        flex-wrap: wrap;
+    }
+       
+    
+   
