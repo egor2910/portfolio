@@ -1,0 +1,30 @@
+.sidebar {
+  padding: 50px 46px;
+  border-right: 1px solid var(--text-main-blue);
+  max-width: 271px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar p {
+  text-align: center;
+}
+.sidebar-photo {
+}
+.sidebar-titles {
+  text-align: center;
+}
+.h2 {
+}
+.h4 {
+}
+.sidebar-links {
+  height: 22px;
+  justify-content: space-betweens;
+  display: flex;
+  gap: 10px;
+}
+.btn-contanct {
+}
