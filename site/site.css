@@ -86,3 +86,14 @@
   display: flex;
   gap: 5px;
 }
+.input-time {
+  width: 35px;
+  background: none;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid #ffffff;
+}
+.input-time:focus {
+  border-color: #00f271;
+}

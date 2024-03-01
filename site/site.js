@@ -27,18 +27,18 @@ const massCar = [
     img: "./Fortnite2.jpg",
     title: "fortnite",
     type: "FPS",
-    price: "10",
+    price: "10$",
   },
   {
     img: "./HOI4.jpg",
     title: "HOI4",
-    price: "40",
+    price: "40$",
     type: "стратегическая игра",
   },
   {
     img: "./Overwatch.jpg",
     title: "Overwatch",
-    price: "40",
+    price: "40$",
     type: "командная игра",
   },
 ];
@@ -60,16 +60,11 @@ for (let i = 0; i < massCar.length; i++) {
 let hours = document.getElementById("hours");
 let min = document.getElementById("minutes");
 let seconds = document.getElementById("seconds");
+let Start = document.getElementsByClassName("start")
+let inputs = document.getElementsByClassName("input-time")
 
-let h = 1;
-let m = 20;
-let s = 40;
-
-// setTimeout(() => {
-//   console.log("Привет пользователь");
-// }, 5000);
-
-const times = setInterval(() => {
+function Timer(h, m, s) {
+   const times = setInterval(() => {
   seconds.innerText = s;
   min.innerText = m;
   hours.innerText = h;
@@ -88,4 +83,14 @@ const times = setInterval(() => {
     min.innerText = 0;
     hours.innerText = 0;
   }
-}, 1000);
+}, 1000);  
+}
+
+let isTimer = false
+Start[0].onclick = () => {
+  
+  let h = inputs[0].value;
+  let m = inputs[1].value;
+  let s = inputs[2].value;
+ Timer(h, m, s)
+}
